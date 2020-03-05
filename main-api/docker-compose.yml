@@ -1,0 +1,52 @@
+version: "3"
+services:
+  redis-database:
+    container_name: "redis-database"
+    image: 'redis:latest'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - 6379:6379
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "2181:2181"
+  kafka:
+    image: wurstmeister/kafka:latest
+    ports:
+      - 9092:9092
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: 172.17.0.1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+  mongo:
+    image: mongo:3.2.4
+    container_name: "mongo"
+    ports:
+      - 27017:27017
+    command: --smallfiles
+  main-api:
+    image: main-api
+    container_name: "main-api"
+    ports:
+      - 8080:8080
+  odd-api:
+    image: odd-api
+    container_name: "odd-api"
+    ports:
+      - 8081:8081
+    environment:
+      SERVER_PORT: 8081
+  even-api:
+    image: even-api
+    container_name: "even-api"
+    ports:
+      - 8082:8082
+  kafka-api:
+    image: kafka-api
+    container_name: "kafka-api"
+    links:
+      - kafka
+    ports:
+      - 8083:8083
+    environment:
+      SERVER_PORT: 8083

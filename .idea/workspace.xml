@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8ed32af-a62d-4c98-9d6c-6ed165c24fd4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YaitgKLpdRzKDdCp4EIe3dwf1F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/even-api" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/odd-api/src/main/java/com/example/odd/api" />
+      <recent name="$PROJECT_DIR$/even-api/src/main/java/com/example/even" />
+      <recent name="$PROJECT_DIR$/main-api/src/main/java/com/example/main/api/integration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/even-api/src/main/java/com/example/even/api" />
+      <recent name="$PROJECT_DIR$/odd-api/src/main/java/com/example/odd/api/controller" />
+      <recent name="$PROJECT_DIR$/odd-api/src/main/java/com/example/odd/api/model" />
+      <recent name="$PROJECT_DIR$/odd-api/src/main/java/com/example/odd/api/repository" />
+      <recent name="$PROJECT_DIR$/odd-api/src/main/java/com/example/odd/api/service" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ed32af-a62d-4c98-9d6c-6ed165c24fd4" name="Default Changelist" comment="" />
+      <created>1583187321186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583187321186</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="338" width="634" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583194853309">
+      <screen x="0" y="27" width="1920" height="1013" />
+    </state>
+    <state x="638" y="338" width="634" height="397" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1013@0.27.1920.1013" timestamp="1583194853309" />
+    <state x="743" y="291" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583198247783">
+      <screen x="0" y="27" width="1920" height="1013" />
+    </state>
+    <state x="743" y="291" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1013@0.27.1920.1013" timestamp="1583198247783" />
+    <state x="605" y="244" width="869" height="646" key="find.popup" timestamp="1583189382782">
+      <screen x="0" y="27" width="1920" height="1013" />
+    </state>
+    <state x="605" y="244" width="869" height="646" key="find.popup/0.27.1920.1013@0.27.1920.1013" timestamp="1583189382782" />
+  </component>
+</project>
